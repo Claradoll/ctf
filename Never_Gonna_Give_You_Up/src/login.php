@@ -69,7 +69,7 @@ $conn=Connect();
 
 function filter($string){
     $blacklist="join|sleep|rlike|regexp|union|or|and|=| |update|delete|drop|insert|#|--|\/\*|\*\/|like|limit|!|\"|\+";
-    if(preg_match_all('/'.$blacklist.'/is',$string)==1){
+    if(preg_match('/'.$blacklist.'/is',$string)==1){
         echo "<script>alert('Hacker!');location.href('index.php')</script>";
         exit();
     }else {
