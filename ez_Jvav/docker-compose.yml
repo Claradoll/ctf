@@ -1,0 +1,7 @@
+version: "3"
+services:
+        web:
+                build: .
+                image: homulille/ez_jvav
+                ports:
+                   - "49111:8888"
