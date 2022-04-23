@@ -2,6 +2,6 @@ version: "3"
 services:
         web:
                 build: .
-                image: ez_ssrf
+                image: just_escape
                 ports:
                         - "49124:80"

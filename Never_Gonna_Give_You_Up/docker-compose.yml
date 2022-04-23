@@ -2,6 +2,6 @@ version: "3"
 services:
         web:
                 build: .
-                image: homulille/never_gonna_give_you_up:2.0
+                image: never_gonna_give_you_up
                 ports: 
                  -  "49123:80"
