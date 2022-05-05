@@ -1,0 +1,7 @@
+version: "3"
+services:
+        web:
+                build: .
+                image: reisen_s_secret
+                ports:
+                        - "49129:80"
