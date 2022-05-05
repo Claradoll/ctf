@@ -1363,3 +1363,21 @@ function stop() {
 }
 document.oncontextmenu = stop;
 </script>
+<script>
+	//按键触发
+document.onkeydown = function(){
+    //禁止ctrl+u
+    if (event.ctrlKey && window.event.keyCode==85){
+    return false;
+    }
+    }
+</script>
+<script>
+	//按键触发
+document.onkeydown = function(){
+	//禁止ctrl+s
+    if (event.ctrlKey && window.event.keyCode==83){
+    return false;
+    }
+    }
+</script>
