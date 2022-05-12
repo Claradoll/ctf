@@ -7,4 +7,3 @@ services:
                 image: ez_jvav
                 ports:
                    - "49111:8888"
-                command: bash -c "chattr +i /f1ag;java -jar ez_Jvav-0.0.1-SNAPSHOT.jar"

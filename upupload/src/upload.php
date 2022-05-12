@@ -1,7 +1,9 @@
 <?php
 
 $userdir = "upload";
-
+if (!file_exists($userdir)) {
+    mkdir($userdir, 0777, true);
+}
 if (isset($_FILES["image"])) {
     $tmp_name = $_FILES["image"]["tmp_name"];
     $file_name = $_FILES["image"]["name"];
