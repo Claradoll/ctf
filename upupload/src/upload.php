@@ -24,7 +24,7 @@ if (isset($_FILES["image"])) {
             echo "文件存储在: " . $userdir . "/" . md5($file_name) . "." . $extension;
         }
     } else {
-        echo "只能上传文件！";
+        echo "只能上传图片！";
     }
     
 }
