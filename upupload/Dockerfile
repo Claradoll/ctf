@@ -5,7 +5,6 @@ LABEL Author=Feng
 
 COPY src /var/www/html
 
-COPY flag /tmp
 
 
 
