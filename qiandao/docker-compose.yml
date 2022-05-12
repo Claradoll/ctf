@@ -1,0 +1,7 @@
+version: "3"
+services:
+        web:
+                build: .
+                image: qiandao
+                ports:
+                        - "49140:80"
