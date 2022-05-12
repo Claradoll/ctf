@@ -2,8 +2,6 @@ version: "3"
 services:
         web:
                 build: .
-                cap_add:
-                   - "LINUX_IMMUTABLE"
                 image: ez_jvav
                 ports:
                    - "49111:8888"
